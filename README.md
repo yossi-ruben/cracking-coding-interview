@@ -1,0 +1,1 @@
+The purpose of the repo is to display answers to Cracking the Coding Interview
