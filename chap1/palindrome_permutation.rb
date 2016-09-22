@@ -5,7 +5,6 @@ def pal_permu?(str)
   even = 0
   odd = 0
   str.downcase.delete(" ").split("").each{ |i| let_count[i] += 1}
-  let_count
 
   let_count.values.each do |v|
     v.even? ? even += 1 : odd += 1
@@ -14,6 +13,7 @@ def pal_permu?(str)
   odd > 1 ? false : true
 end 
 
-pal_permu?("Tact Co")
+p pal_permu?("Tact Coa") # true
+p pal_permu?("Tact Co") # false
 
 
